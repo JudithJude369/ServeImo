@@ -40,7 +40,7 @@ export default function RootLayout({
         >
           <main>
             <Navbar />
-            <div className="p-8"> {children}</div>
+            <div className="pt-24"> {children}</div>
           </main>
         </ThemeProvider>
       </body>

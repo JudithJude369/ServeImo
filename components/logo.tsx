@@ -1,10 +1,12 @@
 export default function Logo() {
   return (
-    <div className="flex gap-2 items-center">
-      <p className="text-[#06150d] font-bold text-3xl  bg-[#0db57b] px-2 rounded-md border-none shadow-md">
-        s
-      </p>
-      <p className="text-2xl font-bold">ServeImo</p>
+    <div className="flex items-center gap-2.5">
+      <div className="flex items-center justify-center w-9 h-9 rounded-lg bg-gradient-to-br from-[#0db57b] to-[#0a8f61] shadow-sm">
+        <span className="text-white font-bold text-lg leading-none">S</span>
+      </div>
+      <span className="text-xl font-bold tracking-tight">
+        Serve<span className="text-[#0db57b]">Imo</span>
+      </span>
     </div>
   );
 }
